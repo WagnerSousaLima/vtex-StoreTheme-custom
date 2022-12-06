@@ -1,0 +1,21 @@
+.paragraph--text__top-bar{
+    font-size: 16px;
+    color: #f1f1f1;
+    font-family: 'JosefinSlab';
+}
+
+.wrapper--email__top-bar,
+.wrapper--text__top-bar {
+    margin-right: 30px;
+}
+
+.wrapper--text__top-bar{
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper--cart__top-bar,
+.paragraph--text__top-bar{
+    margin: 0;
+}

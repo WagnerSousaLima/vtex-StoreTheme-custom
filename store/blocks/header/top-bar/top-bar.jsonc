@@ -1,0 +1,71 @@
+{
+    "flex-layout.row#top-bar": {
+        "props": {
+            "blockClass": "wrapper__top-bar"
+        },
+        "children": [
+            "flex-layout.col#left",
+            "flex-layout.col#right"
+           
+
+
+        ]
+    
+    },
+
+    "flex-layout.col#left": {
+        "children": [
+            "rich-text#email-text",
+            "rich-text#phone-text"
+        ],
+        "props": {
+            "blockClass":["wrapper__col","wrapper__col-right"]
+        }
+
+    },
+    "flex-layout.col#right": {
+        "children": [
+            "rich-text#login-text",
+            "rich-text#wishlist-text",
+            "rich-text#cart-text"
+        ],
+        "props": {
+            "blockClass":["wrapper__col","wrapper__col-right"]
+        }
+
+    },
+
+    "rich-text#email-text": {
+        "props": {
+            "blockClass": ["text__top-bar","email__top-bar"],
+            "text":"![email](assets/imgs/top-bar/email.png) wagner.sousalima@gmail.com"
+        }
+    },
+    
+    "rich-text#phone-text": {
+        "props": {
+            "blockClass": ["text__top-bar","phone__top-bar"],
+            "text":"![phone](assets/imgs/top-bar/phone.png) +55 (12) 99177-7770"
+        }
+    },
+
+    "rich-text#login-text": {
+        "props": {
+            "blockClass": ["text__top-bar","login__top-bar"],
+            "text":"Login ![login](assets/imgs/top-bar/login.png)"
+        }
+    },
+
+    "rich-text#wishlist-text": {
+        "props": {
+            "blockClass": ["text__top-bar","wishlist_top-bar"],
+            "text":"Wishilist ![wishlist](assets/imgs/top-bar/wishlist.png)"
+        }
+    },
+    "rich-text#cart-text": {
+        "props": {
+            "blockClass": ["text__top-bar","cart_top-bar"],
+            "text":"![minicart](assets/imgs/top-bar/minicart.png)"
+        }
+    }
+}
