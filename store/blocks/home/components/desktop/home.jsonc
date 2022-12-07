@@ -1,0 +1,16 @@
+{
+  "store.home": {
+    "blocks": [
+      "slider-layout#slider-text01",
+      "responsive-layout.desktop#home",
+      "responsive-layout.mobile#home",
+      "responsive-layout.tablet#home",
+      "slider-layout#banner", 
+      //"list-context.product-list#new-shelf",
+      //"slider-layout-group#conexao",
+      "flex-layout.row#deals",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf"
+    ]
+  }
+}

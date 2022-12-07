@@ -1,0 +1,40 @@
+{
+    "slider-layout#slider-text01":{
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 3,
+                "phone": 1
+            },
+            "infinite" : true,
+        "blockClass": "slider-text01"
+        },
+        "children": [
+            "rich-text#01",
+            "rich-text#02",
+            "rich-text#03",
+            "rich-text#04"
+        ]
+        
+    },
+    "rich-text#01": {
+        "props": {
+            "text": "# Texto 01"
+        }
+    },
+    "rich-text#02": {
+        "props": {
+            "text": "# Texto 02"
+        }
+    },
+    "rich-text#03": {
+        "props": {
+            "text": "# Texto 03"
+        }
+    },
+    "rich-text#04": {
+        "props": {
+            "text": "# Texto 04"
+        }
+    }
+}
