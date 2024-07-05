@@ -13,4 +13,4 @@
 * CSS Handles
 * Responsive layout
 * List-context.image
-*  Slider layout e Shelfs
+*  Slider layout e Shelfs 
